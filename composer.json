@@ -1,9 +1,18 @@
 {
+    "authors": [
+        {
+            "email": "fkooman@tuxed.net", 
+            "name": "Fran\u00e7ois Kooman", 
+            "role": "Developer"
+        }
+    ], 
     "autoload": {
         "psr-0": {
             "RestService\\": "lib/"
         }
     }, 
+    "description": "PHP library to develop REST applications", 
+    "license": "Apache-2.0", 
     "name": "fkooman/php-rest-service", 
     "require": {
         "php": ">=5.3.0"
