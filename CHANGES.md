@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.9.3
+- add fix for http_build_query
+
 ## 0.9.2
 - add composer.json file
 
