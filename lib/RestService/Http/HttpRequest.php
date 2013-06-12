@@ -84,7 +84,7 @@ class HttpRequest
             throw new HttpRequestException("request method should be POST");
         }
         $this->setHeader("Content-Type", "application/x-www-form-urlencoded");
-        $this->setContent(http_build_query($parameters));
+        $this->setContent(http_build_query($parameters, null, "&"));
     }
 
     public function getQueryParameters()
