@@ -9,17 +9,19 @@ You could also switch to [Silex](http://silex.sensiolabs.org/) or
 For most use cases Silex and Slim are better choices for your application due 
 to them being better tested and more widely used!
 
-## HTTP and REST library
+See the sections below for replacements for the other parts of this library.
+
+### HTTP and REST library
 Switch to [fkooman/php-lib-rest](https://github.com/fkooman/php-lib-rest). For 
 the `OutgoingHttpRequest` please switch to [Guzzle](http://guzzlephp.org/).
 
-## JSON
+### JSON
 Switch to [fkooman/php-lib-json](https://github.com/fkooman/php-lib-json).
 
-## Configuration
+### Configuration
 Switch to [fkooman/php-lib-config](https://github.com/fkooman/php-lib-config).
 
-## Logging
+### Logging
 Switch to [Monolog](https://github.com/Seldaek/monolog).
 
 # Introduction
