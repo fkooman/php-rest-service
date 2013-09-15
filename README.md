@@ -1,3 +1,27 @@
+# Notes
+**DEPRECATED**: This library is deprecated and replaced by separate libraries.
+If you used any of the functionality provided by this library please switch to
+the separate libraries, and preferably depend on them using 
+[Composer](http://getcomposer.org).
+
+You could also switch to [Silex](http://silex.sensiolabs.org/) or 
+[Slim](http://www.slimframework.com/) if you prefer small HTTP/REST libraries. 
+For most use cases Silex and Slim are better choices for your application due 
+to them being better tested and more widely used!
+
+## HTTP and REST library
+Switch to [fkooman/php-lib-rest](https://github.com/fkooman/php-lib-rest). For 
+the `OutgoingHttpRequest` please switch to [Guzzle](http://guzzlephp.org/).
+
+## JSON
+Switch to [fkooman/php-lib-json](https://github.com/fkooman/php-lib-json).
+
+## Configuration
+Switch to [fkooman/php-lib-config](https://github.com/fkooman/php-lib-config).
+
+## Logging
+Switch to [Monolog](https://github.com/Seldaek/monolog).
+
 # Introduction
 This is a PHP library written to make it easy to develop REST applications. 
 
